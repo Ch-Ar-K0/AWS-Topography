@@ -1,0 +1,10 @@
+AWS Capstone Synoposis
+
+ I chose my diagram as the way I think of the cloud schematic: 
+
+ 1. End user starts search
+ 2. Internet search to Internet Gateway
+ 3. Load Balancer determines round robin where to send traffic
+ 4. Nat Gateway pushes it ec2 instance where it can bring up the request via the S3 bucket contents
+ 5. Ec2 can then query the RDS depending on what is being requested by the query and user
+
